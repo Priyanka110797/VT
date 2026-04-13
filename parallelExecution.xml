@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="com.tiger.crm.OrgTest_BASE.BaseOrganizationTest"/>
+      
+    </classes>
+  </test>
+    <test name="Test2">
+    <classes>
+      
+      <class name="com.Vtiger.crm.ContactTest_BASE.BaseContactTest"/>
+    </classes>
+    </test>
+    <test name="Test3">
+    <classes>
+      
+      <class name="com.Vtiger.crm.ContactTest_BASE.BaseContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners> 
+ <listener class-name="com.tiger.crm.listenerutility.ListenerImplementationClass"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Vtiger.crm.ContactTest_BASE.BaseContactTest"/>
+      <methods> 
+      <include name="createContactTest"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
