@@ -23,9 +23,14 @@ public class CreatingNewLeadPage {
 	@FindBy(xpath="//input[@title='Save [Alt+S]']")
 	WebElement saveBtn;
 	
+
 	
 @FindBy(name="user_name")
 WebElement newElement2;
+
+	@FindBy(name="username")
+	WebElement newElement1;
+
 
 	public WebElement getLastNameTF() {
 		return lastNameTF;
