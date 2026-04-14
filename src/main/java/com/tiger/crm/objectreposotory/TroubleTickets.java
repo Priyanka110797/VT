@@ -24,8 +24,7 @@ public class TroubleTickets {
 	WebElement seacrhBtn;
 	
 
-	@FindBy(name="username")
-	WebElement Newele1;
+	
 	
 	public WebElement getCreateNewTicketlink() {
 		return createNewTicketlink;
