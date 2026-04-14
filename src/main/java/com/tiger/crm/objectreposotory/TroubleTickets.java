@@ -22,7 +22,11 @@ public class TroubleTickets {
 	
 	@FindBy(name="submit")
 	WebElement seacrhBtn;
+	
 
+	@FindBy(name="username")
+	WebElement Newele1;
+	
 	public WebElement getCreateNewTicketlink() {
 		return createNewTicketlink;
 	}
