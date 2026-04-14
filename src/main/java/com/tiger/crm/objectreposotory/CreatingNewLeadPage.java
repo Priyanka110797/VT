@@ -24,6 +24,7 @@ public class CreatingNewLeadPage {
 	WebElement saveBtn;
 	
 
+
 	
 @FindBy(name="user_name")
 WebElement newElement2;
@@ -31,6 +32,8 @@ WebElement newElement2;
 	@FindBy(name="username")
 	WebElement newElement1;
 
+
+	
 
 	public WebElement getLastNameTF() {
 		return lastNameTF;
